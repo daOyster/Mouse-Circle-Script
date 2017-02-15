@@ -22,7 +22,7 @@ if len(sys.argv) >=2:
 
 	if arg1 == "-h" or arg1 == "-help":
 		print("\nMoves the mouse in a circle around the center of the screen.")
-		print("\n\tUsage: circle.py <circle vertexe count> <tick length (seconds)>")
+		print("\n\tUsage: circle.py [circle vertexe count] [tick length (seconds)]")
 		exit(0)
 
 # if vetex count is supplied, set the number of steps equal to vertex count
